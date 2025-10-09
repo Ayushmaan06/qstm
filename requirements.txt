@@ -1,0 +1,16 @@
+"""
+Requirements for QLSTM (Quantum Long Short-Term Memory) Project
+"""
+
+torch>=1.9.0
+pennylane>=0.28.0
+numpy>=1.21.0
+
+# Optional: For additional quantum backends
+pennylane-qiskit>=0.27.0
+qiskit>=0.39.0
+
+# For development and testing
+pytest>=6.0.0
+matplotlib>=3.5.0
+jupyter>=1.0.0
